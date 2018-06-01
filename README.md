@@ -1,5 +1,5 @@
 # bacs-transactions-splitter
-Sample Input file (STD18_daily_test_with txns only.txt): <br />
+### Sample Input file (STD18_daily_test_with txns only.txt): <br />
 2000001122334401720000077776666000000000000011ALLOKAY   00000001WAGES  00000000001JOHN   00000000001
 2000001122334401720000077776666000000000000011ALLOKAY   00000001WAGES  00000000001JOHN   00000000002
 2000001122334401720000077776666000000000000011ALLOKAY   00000001WAGES  00000000001JOHN   00000000003
@@ -9,7 +9,7 @@ Sample Input file (STD18_daily_test_with txns only.txt): <br />
 2000001122334401720000077776666000000000000011ALLOKAY   00000001WAGES  00000000001JOHN   00000000007
 2000001122334401720000077776666000000000000011ALLOKAY   00000001WAGES  00000000001JOHN   00000000008
 
-# Scope of project:
+## Scope of project:
 1. Read sample file from a path
 2. If I want to split these 8 transactions into 2 transactions in each chunk such that it will produce following output in loop as follows:<br />
 split1 = first two transactions (2) <br />
