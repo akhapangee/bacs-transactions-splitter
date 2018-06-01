@@ -1,4 +1,5 @@
 # bacs-transactions-splitter
+Sample Input file:
 2000001122334401720000077776666000000000000011ALLOKAY   00000001WAGES  00000000001JOHN   00000000001
 2000001122334401720000077776666000000000000011ALLOKAY   00000001WAGES  00000000001JOHN   00000000002
 2000001122334401720000077776666000000000000011ALLOKAY   00000001WAGES  00000000001JOHN   00000000003
@@ -19,7 +20,7 @@ split3 = first two transactions from parent2
 parent3 = remaining 2 transactions
 split4 = last two transactions and parent will have no transactions at this time.
 
-3. Generated files split and parent files in as described in step 2.
+3. Generate split and parent files as described in step 2.
 
         String fileName = "files/bacs split/STD18_daily_test_with txns only.txt";
         int txnPerSplit = 2;
