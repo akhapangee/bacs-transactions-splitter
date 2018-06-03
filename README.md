@@ -27,3 +27,4 @@ split4 = last two transactions and parent will have no transactions at this time
         String splitFileName = "files/bacs split/output/_split";
         String parentFileName = "files/bacs split/output/parent";
         String fileExtenstion = ".txt";
+You can check outputs in folder 'files/bacs split/output/'.
